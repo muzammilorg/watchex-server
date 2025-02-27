@@ -28,6 +28,9 @@ app.use('/api', movieRoutes)
 app.use('/show', showRoutes)
 app.use('/booking', bookingRoutes)
 
-app.listen(PORT, () => {
-    console.log(`Server is Listening on http://localhost:${PORT}`)
-})
+// app.listen(PORT, () => {
+//     console.log(`Server is Listening on http://localhost:${PORT}`)
+// })
+
+
+module.exports = app;
