@@ -1,12 +1,15 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "src/server.js",
   "type": "module",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/index",
-    "start": "node src/index"
+    "dev": "nodemon src/server",
+    "start": "node src/server"
   },
   "keywords": [],
   "author": "",
